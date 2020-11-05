@@ -7,7 +7,7 @@ function call2() {
 addEventListener('click', (e) => {
         screenvalue = e.target.innerText;
         if (screenvalue == 'DEL') {
-                console.log(result.value.toString());
+                // console.log(result.value.toString());
         }
         else {
                 result.value += screenvalue;
